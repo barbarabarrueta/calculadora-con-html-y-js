@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin:0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(235, 142, 108);
+}
+body div.micalculadora{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: 0 auto;
+    background-color: brown;
+    border-radius: 10px;
+}
+div input[type="button"], button{
+    width: 40px;
+    height: 40px;
+    margin: 3px 0;
+}
+div input[type="text"]{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(179, 173, 173);
+    color: black;
+    padding: 12px 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px solid grey;
+}
+div.resultado input, div.resultado button{
+    height: 40px;
+    width: 90px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+div .resultado input{
+    background-color: rgb(47, 146, 60);
+    color: white;
+    border: 1px solid rgb(19, 128, 5);
+}
+div .resultado button{
+    background-color: red;
+    color: white;
+    border: 1px solid rgb(177, 9, 9);
+}
+#suma, #resta, #mult, #div, #porc{
+    background-color: rgb(189, 184, 184);
+    border: 1px solid rgb(87, 85, 85);
+    font-size: 17px;
+}
